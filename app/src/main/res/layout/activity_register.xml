@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Authentication.Register"
+    android:background="@drawable/background3">
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="221dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="44dp"
+        android:background="@color/white"
+        android:textAlignment="center"
+        android:ems="10"
+        android:hint="*******"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailEditText" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="221dp"
+        android:layout_height="29dp"
+        android:background="@color/white"
+        android:layout_marginTop="52dp"
+        android:ems="10"
+        android:hint="traveller@agency.com"
+        android:textAlignment="center"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usernameEditText" />
+
+    <EditText
+        android:id="@+id/repeatedPassword"
+        android:layout_width="221dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="52dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Repeat the password"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordEditText" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/repeatedPassword" />
+
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:background="@color/white"
+        android:layout_width="221dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="144dp"
+        android:ems="10"
+        android:hint="username"
+        android:textAlignment="center"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:padding="5dp"
+        android:shadowColor="#d226fc"
+        android:shadowDx="0.10"
+        android:shadowDy="0.6"
+        android:shadowRadius="9"
+        android:text="Welcome new traveller!"
+        android:textAlignment="center"
+        android:textColor="#1a081f"
+        android:textSize="33dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

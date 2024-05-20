@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="412dp"
+        android:layout_height="138dp"
+        android:padding="5dp"
+        android:shadowColor="#d226fc"
+        android:shadowDx="0.10"
+        android:shadowDy="0.6"
+        android:shadowRadius="9"
+        android:text="Geography quizz"
+        android:textAlignment="center"
+        android:textColor="#1a081f"
+        android:textSize="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.374"
+        android:fontFamily="serif"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="412dp"
+        android:layout_height="138dp"
+        android:layout_marginBottom="12dp"
+        android:padding="5dp"
+        android:shadowColor="#BF40BF"
+        android:shadowDx="0.10"
+        android:shadowDy="0.6"
+        android:shadowRadius="9"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#301934"
+        android:textSize="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:text="New traveller?"
+        android:shadowColor="#BF40BF"
+        android:shadowDx="0.10"
+        android:shadowDy="0.6"
+        android:shadowRadius="9"
+        android:fontFamily="monospace"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+   />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="52dp"
+        android:text="Log in"
+        android:fontFamily="monospace"
+        android:shadowColor="#BF40BF"
+        android:shadowDx="0.10"
+        android:shadowDy="0.6"
+        android:shadowRadius="9"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

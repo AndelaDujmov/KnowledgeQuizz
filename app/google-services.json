@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "831756832997",
+    "project_id": "knowledgequizz-a5ae3",
+    "storage_bucket": "knowledgequizz-a5ae3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:831756832997:android:8383f108c5150eccdc840c",
+        "android_client_info": {
+          "package_name": "com.example.knowledgequizz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCC419fCTErv4S2Qz9na3ATRGREFB6vo1k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

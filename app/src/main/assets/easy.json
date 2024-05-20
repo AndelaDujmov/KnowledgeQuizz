@@ -1,0 +1,140 @@
+{
+  "easy" : [
+    {
+      "question" : "What is the capital of France?",
+      "item1" : "Nica",
+      "item2" : "Paris",
+      "item3" : "Milano",
+      "item4" : "Lyon",
+      "rightAnswer" : "Paris"
+    },
+    {
+      "question" : "What is the longest river in the world?",
+      "item1" : "The River Nile",
+      "item2" : "Paris",
+      "item3" : "Milano",
+      "item4" : "Lyon",
+      "rightAnswer" : "The River Nile"
+    },
+    {
+      "question" : "Which continent is the largest by land area?",
+      "item1" : "Africa",
+      "item2" : "North America",
+      "item3" : "Asia",
+      "item4" : "Antartica",
+      "rightAnswer" : "Asia"
+    },
+    {
+      "question" : "What is the tallest mountain in the world?",
+      "item1" : "Mount Everest",
+      "item2" : "Mount Blanc",
+      "item3" : "Velebit",
+      "item4" : "ST Andrew",
+      "rightAnswer" : "Mount Everest"
+    },
+    {
+      "question" : "What is the capital of Italy?",
+      "item1" : "Milano",
+      "item2" : "Rome",
+      "item3" : "Crema",
+      "item4" : "Venice",
+      "rightAnswer" : "Rome"
+    },
+    {
+      "question" : "What is the largest ocean on Earth?",
+      "item1" : "The Pacific Ocean",
+      "item2" : "Atlantic Ocean",
+      "item3" : "North Ocean",
+      "item4" : "South Ocean",
+      "rightAnswer" : "The Pacific Ocean"
+    },
+    {
+      "question" : "Which country is known as the Land of the Rising Sun?",
+      "item1" : "Japan",
+      "item2" : "Korea",
+      "item3" : "Singapore",
+      "item4" : "Netherlands",
+      "rightAnswer" : "Japan"
+    },
+    {
+      "question" : " What is the smallest country in the world?",
+      "item1" : "France",
+      "item2" : "Korea",
+      "item3" : "Monaco",
+      "item4" : "Vatican City",
+      "rightAnswer" : "Vatican City"
+    },
+    {
+      "question" : "Which desert is the largest in the world?",
+      "item1" : "The Sahara Desert",
+      "item2" : "Dubai Desert",
+      "item3" : "West Desert",
+      "item4" : "Vatican City",
+      "rightAnswer" : "The Sahara Desert"
+    },
+    {
+      "question" : "What is the capital of Australia?",
+      "item1" : "Canberra",
+      "item2" : "Sidney",
+      "item3" : "Chicago",
+      "item4" : "Vatican City",
+      "rightAnswer" : "Canberra"
+    },
+    {
+      "question" : "Which river flows through Egypt?",
+      "item1" : "Nil",
+      "item2" : "Dunav",
+      "item3" : "Lyone",
+      "item4" : "Vatican City",
+      "rightAnswer" : "Nil"
+    },
+    {
+      "question" : "What is the capital of Canada?",
+      "item1" : "Nil",
+      "item2" : "Okinawa",
+      "item3" : "Toronto",
+      "item4" : "Ottawa",
+      "rightAnswer" : "Ottawa"
+    },
+    {
+      "question" : "Which country is known as the Land of Fire and Ice?",
+      "item1" : "Iceland",
+      "item2" : "Norway",
+      "item3" : "Sweden",
+      "item4" : "Finland",
+      "rightAnswer" : "Iceland"
+    },
+    {
+      "question" : "What is the capital of Brazil?",
+      "item1" : "Rio de Jainero",
+      "item2" : "Brasilia",
+      "item3" : "Golf",
+      "item4" : "Non golf",
+      "rightAnswer" : "Brasilia"
+    },
+    {
+      "question" : "What is the largest island in the world?",
+      "item1" : "Iceland",
+      "item2" : "United Kingdom",
+      "item3" : "Greenland",
+      "item4" : "Malta",
+      "rightAnswer" : "Greenland"
+    },
+    {
+      "question" : " What is the capital of Spain?",
+      "item1" : "Barcelona",
+      "item2" : "Tabacco",
+      "item3" : "Madrid",
+      "item4" : "Malta",
+      "rightAnswer" : "Madrid"
+    },
+    {
+      "question" : "What is the capital of Russia?",
+      "item1" : "Moscow",
+      "item2" : "Praha",
+      "item3" : "Venice",
+      "item4" : "Malta",
+      "rightAnswer" : "Moscow"
+    }
+  ]
+}
